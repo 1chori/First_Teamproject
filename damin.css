@@ -1,0 +1,191 @@
+header {
+    position: fixed;
+    width: 100%; height: 45px;
+    top: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    width: 100%; height: 75px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line {
+    width: 708px; height: 1px;
+    background-color: silver;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.btn button:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+  }
+.btn {
+    position: relative;
+    width: 100%; height: 45px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+}
+.btn1 {
+    position: absolute;
+    top: 10px; left: 10px;
+    box-sizing: border-box;
+    width: 210px; height: 25px;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    margin: 0px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.btn2 {
+    position: absolute;
+    top: 10px; right: 80px;
+    box-sizing: border-box;
+    width: 60px; height: 25px;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    margin: 0px;
+    cursor: pointer;
+    align-items: center;
+    text-align: right;
+}
+.btn2:before {
+    position: absolute;
+    top: 5px; right: 40px;
+    content: "";
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-search-input.png);
+    width: 15px; height: 15px;
+    display: block;
+    background-repeat: no-repeat;
+}
+.btn3 {
+    position: absolute;
+    top: 10px; right: 30px;
+    box-sizing: border-box;
+    width: 40px; height: 25px;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    margin: 0px;
+    cursor: pointer;
+    align-items: center;
+}
+.btn4 {
+    position: fixed;
+    box-sizing: border-box;
+    width: 720px; height: 50px;
+    background-color: rgb(84, 84, 226);
+    border: none; border-radius: 10px;
+    font-size: 16px; font-weight: 1000;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%);
+}
+
+.page_cover {
+    width: 100%; height: 290px;
+    overflow: hidden;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.basicimg {
+    width: 708px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+
+.process {
+    width: 708px;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.process_info {
+    border: 3px solid black;
+    border-top: none; border-bottom: none; border-right: none;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.hilight {
+    font-weight: 900;
+    background-color: bisque;
+}
+
+.question {
+    font-weight: 900;
+    color: grey;
+}
+
+.question span::before {
+    content: "▶";
+    color: black;
+    margin: 0 4px;
+}
+
+.noti {
+    position: relative;
+    width: 708px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.noti img {
+    position: absolute;
+    top: 20px; left: 15px;
+    width: 23px; height: 23px;
+}
+
+.noti p {
+    margin: 3px;
+}
+
+.philosophy {
+    position: relative;
+}
