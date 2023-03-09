@@ -39,7 +39,6 @@ body{
     font-weight: bold;
     margin-left: 5px;
     display: flex;
-    flex-grow: 1;
     width: 100%;
 }
 
@@ -55,6 +54,7 @@ body{
     width: 100%;
     flex-direction: row-reverse;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .search img{
@@ -73,6 +73,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
     width: 70px;
+    cursor: pointer;
 }
 
 .share img{
@@ -106,18 +107,7 @@ img{
     position: relative;
 }
 
-.kakao_ch{
-    width: 56px;
-    height: 56px;
-    position: fixed;
-    bottom: 100px;
-    /* right: 610px; */
-    display: flex;
-    margin: auto 0px;
-    right: 30%;
-    
-    
-}
+
 
 .ctr_line1{
     border: 1px solid gray;
@@ -248,13 +238,6 @@ img{
     color: gray;
 }
 
-/* .after_des{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-
 .afetr_des_img{
     display: flex;
     justify-content: space-around;
@@ -292,6 +275,17 @@ img{
 
 .question_title span{
     background-color: rgb(247, 229, 207);
+}
+
+.kakao_btn{
+    border: none;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .apply{
